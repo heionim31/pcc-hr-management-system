@@ -210,7 +210,7 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="profile.php">My Profile</a>
                     <a class="dropdown-item" href="settings.php">Settings</a>
-                    <a class="dropdown-item" href="logout.php">Logout</a>
+                    <a class="dropdown-item" href="logout.php">Sign Out</a>
                 </div>
             </div>
         </li>

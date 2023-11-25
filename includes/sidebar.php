@@ -53,28 +53,32 @@
                 <!-- DASHBOARD -->
                 <li class="sample-active mt-5"><a href="index.php"><i class="la la-dashboard"></i> <span> Dashboard</span> </a></li>
 
+                <!-- MANAGE EMPLOYEE ACCOUNTS -->
+                <li class="submenu">
+                    <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Manage Employees</span> <span class="menu-arrow"></span></a>
+                    <ul style="display: none;">
+                        <li><a href="./employees-list.php">Employee Accounts</a></li>
+                        <li><a href="./register-biometrics.php">Register Biometrics</a></li>
+                    </ul>
+                </li>
+
                 <!-- MANAGE EMPLOYEES REQUEST -->
                 <li class="submenu">
                     <a href="#" class="noti-dot"><i class="la la-external-link-square"></i> <span>Employee Requests</span> <span class="menu-arrow"></span></a>
                     <ul style="display: none;">
                         <li><a href="#" class="noti-dot">Leave Request</a></li>
-                        <li><a href="#">Change Password</a></li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Manage Employees</span> <span class="menu-arrow"></span></a>
-                    <ul style="display: none;">
-                        <li><a href="#">All Employees</a></li>
-                        <li><a href="#">Holidays</a></li>
-                        <li><a href="#">Departments</a></li>
-                        <li><a href="#">Designations</a></li>
-                        <li><a href="#">Timesheet</a></li>
+                        <li><a href="#">Change Password Request</a></li>
                     </ul>
                 </li>
 
                 <!-- CALENDAR -->
                 <li>
                     <a href="#"><i class="la la-calendar"></i><span>Calendar</span></a>
+                </li>
+
+                <!-- REQUEST EQUIPMENT -->
+                <li>
+                    <a href="#"><i class="la la-wrench"></i><span>Request Equipment</span></a>
                 </li>
 
                 <!-- REPORTS -->
@@ -86,29 +90,14 @@
                     </ul>
                 </li>
 
-                <!-- PAYROLL -->
-                <li class="submenu">
-                    <a href="#"><i class="la la-money"></i><span>Payroll</span> <span class="menu-arrow"></span></a>
-                    <ul style="display: none;">
-                        <li><a href="#"> Employee Salary </a></li>
-                        <li><a href="#"> Payslip </a></li>
-                        <li><a href="#"> Payroll Items </a></li>
-                    </ul>
-                </li>
-
                 <!-- ACTIVITY LOGS -->
                 <li>
                     <a href="#"><i class="la la-users"></i><span>Activity Logs</span></a>
                 </li>
 
-                <!-- SETTINGS -->
-                <li>
-                    <a href="#"><i class="la la-cogs"></i><span>Settings</span></a>
-                </li>
-
                 <!-- LOGOUT -->
                 <li class="out-container">
-                    <a class="out-button" href="#"><i class="la la-power-off"></i><span>Logout</span></a>
+                    <a class="out-button" href="#"><i class="la la-power-off"></i><span>Sign Out</span></a>
                 </li>
             </ul>
         </div>
